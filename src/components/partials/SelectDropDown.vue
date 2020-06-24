@@ -1,7 +1,7 @@
 <template>
 	<a-select
 		show-search
-		placeholder="Select a person"
+		placeholder="Select a value"
 		option-filter-prop="children"
 		:filter-option="filterOption"
 		@focus="handleFocus"
